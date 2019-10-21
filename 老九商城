@@ -1,0 +1,8 @@
+    public static double finalTotal(double startTotal,boolean vip){
+        if(vip==true&&startTotal>=200){
+                return startTotal*0.8;
+        }else (vip==true||startTotal>=200){
+            return startTotal*0.9;
+        }
+        return startTotal;
+    }
